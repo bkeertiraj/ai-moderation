@@ -18,4 +18,4 @@ COPY moderation.py .
 EXPOSE 5656
 
 # Command to run the application
-CMD ["uvicorn", "moderation.py:app", "--host", "0.0.0.0", "--port", "5656"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "5656"]
